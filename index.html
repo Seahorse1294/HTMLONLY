@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warwick Community Chess Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/wcccicon.svg" type="image/x-icon">
+</head>
+<body>
+<!-- Body Wrapper -->
+<div class="wrapper">
+
+    <!-- Header -->
+    <header id="sticky"> <!-- The sticky id will make the header's position fixed. -->
+        <section id="above">
+            <a href="index.html"><img src="/images/WCCCLogo.svg" alt="Warwick Community Chess Club Logo" title="Home Page" width="300"></a>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- Useful Links -->
+        <nav aria-label="Useful Links"> <!-- Creating an accessible website, this NAV is different to the main NAV. -->
+            <p>Useful Links</p>
+            <ul>
+                <li><a href="https://www.chess.com/home" target="_blank">Chess.com</a></li>
+                <li><a href="https://lichess.org/" target="_blank">Lichess</a></li>
+                <li><a href="https://www.amazon.com.au/hz/wishlist/ls/QQ9Q3LC7AK3K" target="_blank">Amazon Books List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Specific Homepage Wrapper -->
+    <main>
+
+        <!-- Hero -->
+        <section id="hero"> <!-- Similar to a splash image/pre-page -->
+            <img src="images/hero.jpg" alt="Warwick Chess Community Club Image" width="1000">
+        </section>
+
+        <!-- Events -->
+        <article class="events"> <!-- To create a flex display with three columns. -->
+            <h2>Upcoming Events</h2>
+            <section id="left" class="eventSection">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab minus temporibus error voluptatem odit cumque exercitationem similique explicabo nisi rem.
+            </section>
+            <section id="middle" class="eventSection">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi laudantium provident qui perspiciatis vitae illum dicta voluptatem eaque libero repellat, incidunt excepturi odit doloremque dolore labore officiis cumque omnis architecto ipsa explicabo accusamus enim, cupiditate debitis. Aut, possimus eaque?
+            </section>
+            <section id="right" class="eventSection">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, similique!
+            </section>
+        </article>
+
+        <!-- Google Maps -->
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1509.7981717106306!2d115.80863398906196!3d-31.841813284280292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32afd60142a96f%3A0x8ffea11fde74cca2!2sWarwick%20Community%20Chess%20Club!5e0!3m2!1sen!2sau!4v1679110100256!5m2!1sen!2sau" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Calendar -->
+        <section id="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?src=spoked%40our.ecu.edu.au&ctz=UTC" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+        </section>
+
+        <!-- Images -->
+        <section class="images image-flex"> 
+            <!-- Eventually create a flex series of images 
+            where an image expands when it is hovered over. -->
+            <img src="images/players1.jpg" alt="Magnus Carlson" width="450">
+            <img src="images/players2.jpeg" alt="Player playing chess" width="450">
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer> <!-- Footer will flex with three columns. -->
+        <section id="footerWrapper">
+            <section id="contact">
+                <ul>
+                    <li>Phone: +61 123 456 789</li>
+                    <li>Address: 77 Ellersdale Ave, Warwick WA 6024</li>
+                    <li>Email: spoked@our.ecu.edu.au</li>
+                </ul>
+            </section>
+            <section id="sitemap">
+                <ul>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </section>
+            <section id="socials">
+                <ul id="socialUL">
+                    <li><a href="#"><img src="images/facebook.svg" alt="Facebook" width="100"></a></li>
+                    <li><a href="#"><img src="images/instagram.svg" alt="Instagram" width="100"></a></li>
+                    <li><a href="#"><img src="images/youtube.svg" alt="YouTube" width="100"></a></li>
+                </ul>
+            </section>
+        </section>
+        <section id="copyright"> <!-- This section will be below the flexed columns, in the middle. -->
+            &copy; 2023 | Sea Poked | ECU <img src="images/wcccicon.png" alt="" width="32">
+        </section>
+    </footer>
+
+</div>
+</body>
+</html>
