@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCCC About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/wcccicon.svg" type="image/x-icon">
+</head>
+<body>
+<!-- Body Wrapper -->
+<div class="wrapper">
+
+    <!-- Header -->
+    <header id="sticky"> <!-- The sticky id will make the header's position fixed. -->
+        <section id="above">
+            <a href="index.html"><img src="/images/WCCCLogo.svg" alt="Warwick Community Chess Club Logo" title="Home Page"></a>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- Useful Links -->
+        <nav aria-label="Useful Links"> <!-- Creating an accessible website, this NAV is different to the main NAV. -->
+            <p>Useful Links</p>
+            <ul>
+                <li><a href="https://www.chess.com/home" target="_blank">Chess.com</a></li>
+                <li><a href="https://lichess.org/" target="_blank">Lichess</a></li>
+                <li><a href="https://www.amazon.com.au/hz/wishlist/ls/QQ9Q3LC7AK3K" target="_blank">Amazon Books List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Specific About Wrapper -->
+    <main>
+        <!-- About us and three text boxes -->
+        <section class="about"> <!-- Main text box -->
+            <h2 class="abouth2">Main Text Box</h2>
+            <p class="aboutp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit rerum officia facere placeat modi nobis nam deleniti reiciendis doloribus perferendis repellat id molestiae amet iure veritatis consectetur, itaque, doloremque ex eveniet sint? Placeat iure, veritatis earum eius dolorum suscipit sequi voluptas tenetur eaque beatae accusamus in mollitia molestiae error ea!</p>
+        </section>
+        <article class="aboutcolumn"> <!-- Format this as columns, three columns display -->
+            <section class="about" id="left">
+                <h2 class="abouth2">Text 1</h2>
+                <p class="aboutp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odit inventore ab cum repudiandae corporis veritatis odio! Accusantium at dicta possimus, minus corporis officiis sit vitae dolore fugit, non neque.</p>
+            </section>
+            <section class="about" id="middle">
+                <h2 class="abouth2">Text 2</h2>
+                <p class="aboutp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis accusamus neque modi, reiciendis similique hic consequuntur eveniet impedit a enim, natus ipsa cum deserunt? Laudantium perferendis a nulla iure nihil!</p>
+            </section>
+            <section class="about" id="right">
+                <h2 class="abouth2">Text 3</h2>
+                <p class="aboutp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maxime fugit a, sequi et corrupti adipisci tempora incidunt, voluptate tempore aut voluptates maiores dignissimos repellat quia, harum repudiandae alias doloremque?</p>
+            </section>
+        </article>
+
+        <!-- Timeline -->
+        <!-- This timeline will have columns with nth child (even and odd) alternating up and down. -->
+        <div id="timeline"> <!-- Column format -->
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+            <section class="date">Lorem, ipsum.</section>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer> <!-- Footer will flex with three columns. -->
+        <section id="footerWrapper">
+            <section id="contact">
+                <ul>
+                    <li>Phone: +61 123 456 789</li>
+                    <li>Address: 77 Ellersdale Ave, Warwick WA 6024</li>
+                    <li>Email: spoked@our.ecu.edu.au</li>
+                </ul>
+            </section>
+            <section id="sitemap">
+                <ul>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </section>
+            <section id="socials">
+                <ul id="socialUL">
+                    <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="images/youtube.svg" alt="YouTube"></a></li>
+                </ul>
+            </section>
+        </section>
+        <section id="copyright"> <!-- This section will be below the flexed columns, in the middle. -->
+            &copy; 2023 | Sea Poked | ECU <img src="images/wcccicon.png" alt="">
+        </section>
+    </footer>
+
+</div>
+</body>
+</html>
